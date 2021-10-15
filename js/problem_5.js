@@ -42,4 +42,5 @@ showRhymesButton.addEventListener('click', () =>{
 
 clearButton.addEventListener('click', () => {
     wordInput.value = "";
+    rhymesOutput.removeChild();
 });

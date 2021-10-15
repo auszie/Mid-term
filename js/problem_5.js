@@ -24,6 +24,7 @@ showRhymesButton.addEventListener('click', () =>{
 
     getRhymes(rhy_word, (result) =>{
         ///console.log(result);
+        rhy
         for( const key in result){
             const wordict = result[key];
             const newWord = wordict['word'];
@@ -41,5 +42,4 @@ showRhymesButton.addEventListener('click', () =>{
 
 clearButton.addEventListener('click', () => {
     wordInput.value = "";
-    rhymesOutput.remove('li');
 });
